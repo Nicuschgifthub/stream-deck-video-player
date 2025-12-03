@@ -93,9 +93,9 @@ class StreamDeckVideoPlayer {
         let devices = listStreamDecks();
 
         if (devices.length > 0) {
-            devicePath = devices[0].path;
+            devicePath = devices[0].path; // Used for other Stream Decks
         } else {
-            const allDevices = HID.devices();
+            const allDevices = HID.devices(); // Finding the Stream Deck Mini does not work using the default listStreamDecks();
             const elgatoDevice = allDevices.find(d => d.manufacturer && d.manufacturer.toLowerCase().includes('elgato'));
             if (elgatoDevice) devicePath = elgatoDevice.path;
         }

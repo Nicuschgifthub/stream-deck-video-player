@@ -1,10 +1,10 @@
 {
     "name": "stream-deck-video-player",
-    "version": "1.0.0",
-    "description": "Node.js Video controller for Elgato Stream Deck Mini",
+    "version": "1.0.2",
+    "description": "Node.js Video controller for Elgato Stream Decks",
     "main": "example-video.js",
     "scripts": {
-        "start": "node index.js"
+        "start": "node example-video.js"
     },
     "keywords": [
         "stream-deck",
