@@ -12,7 +12,7 @@ A Node.js application that turns your Elgato Stream Deck Mini into a video playe
 
 ## Video Demo
 
-Shown on the Stream Deck Mini Discord edition
+You can find it inside the **./_readme** folder
 
 <video src="https://raw.githubusercontent.com/Nicuschgifthub/stream-deck-video-player/master/_readme/example-video.mp4" controls muted loop autoplay width="50%"></video>
 
