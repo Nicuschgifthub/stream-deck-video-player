@@ -9,7 +9,6 @@ A Node.js application that turns your Elgato Stream Deck Mini into a video playe
 - **Configurable**: Adjustable target FPS and key size.
 - **Efficient**: Preloads frames into memory for smooth playback.
 
-
 ## Video Demo
 
 You can find it inside the **./_readme** folder
